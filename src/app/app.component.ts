@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import{Hero} from './hero';
 //Dekorator
 @Component({
   selector: 'app-root',
@@ -16,11 +16,6 @@ export class AppComponent {
   }
 }
 
-// deklaracja klasy
-export class Hero{
-  id: number;
-  name: string;
-}
 
 //lista obiektów typu Hero
 const HEROES: Hero[] = [
